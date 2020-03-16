@@ -1,0 +1,36 @@
+<div class="main">
+    <div id="error"></div>
+    <div class="container">
+        <div class="row">
+            <h2>GENIUS SONG RANDOMAIZER</h2>
+            <div class="col-1-3">
+                <div class="ourImg">
+                    <img class="artImage" src="{{img}}" width="400" height="400" alt="">
+                </div>
+                <div class="rightText">
+                    <p style="font-size: 26px; font-weight: bold">Song: <span style="color:red">{{title}}</span></p>
+                    <p style="font-size: 26px; font-weight: bold">Artist: <span style="color:green">{{artist}}</span>
+                    </p>
+                    {{#if release}}
+                        <p style="font-size: 26px; font-weight: bold">Release: {{release}}</p>
+                    {{/if}}
+                    <button class="buttonSub btn">NEW SONG</button>
+                    {{#if url}}
+                        <button onclick="location.href ='{{url}}'" class="btn buttonSend"><span>GENIUS</span></button>
+                    {{/if}}
+                    {{#if isLoggedIn}}
+                        <button class="buttonSub btn">ADD SONG</button>
+                    {{/if}}
+                </div>
+            </div>
+            <div class="col-2-3">
+                {{#each lyrics}}
+                    <p class="font-family: 'Hammersmith One', sans-serif; line-height: 10px">{{this}}</p>
+                {{/each}}
+            </div>
+
+        </div>
+    </div>
+</div>
+
+

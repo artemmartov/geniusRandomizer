@@ -1,0 +1,40 @@
+{
+  "name": "self-assessment-rest",
+  "version": "1.0.0",
+  "description": "Пожалуйста, постарайтесь справиться с этим заданием за 3 часа.",
+  "main": "app.js",
+  "scripts": {
+    "start": "npx nodemon --ignore sessions server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artemmartov/self-assessment-rest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artemmartov/self-assessment-rest/issues"
+  },
+  "homepage": "https://github.com/artemmartov/self-assessment-rest#readme",
+  "dependencies": {
+    "bcrypt": "^4.0.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "genius-lyrics": "^1.0.9",
+    "genius-lyrics-api": "^1.1.0",
+    "hbs": "^4.1.0",
+    "mongoose": "^5.9.1",
+    "morgan": "^1.9.1",
+    "node-fetch": "^2.6.0",
+    "session-file-store": "^1.4.0",
+    "body-parser": "latest"
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "express-session": "^1.17.0",
+    "genius-api": "^0.4.1",
+    "needle": "^2.3.2"
+  }
+}
