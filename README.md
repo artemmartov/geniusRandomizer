@@ -6,8 +6,10 @@ Genius Randomizer - Приложение, использующее API GENIUS
 
 # Запуск программы
 
-> npm i 
-> npm start
+```sh
+npm i 
+npm start
+```
 
 
 ### Стек технологий
