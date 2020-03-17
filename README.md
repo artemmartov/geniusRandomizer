@@ -13,6 +13,8 @@ npm start
 
 
 
+![Example](https://github.com/artemmartov/geniusRandomizer/raw/master/public/GIF.gif)
+
 
 
 ## Стек технологий
